@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import SearchBox from "./components/SearchBox";
+import ResultBox from "./components/ResultBox";
+import InitialState from "./components/InitialState";
+import { AppProvider } from "./contexts/AppContext"
+import "./css/App.css";
+
+const result = true;
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  if (result) {
+    return (
+      <div className="App">
+        <Header />
+        <AppProvider>
+          <SearchBox />
+          <ResultBox />
+        </AppProvider>
+      </div>
+    );
+  } else {
+    return (
+      <div className="App">
+        <Header />
+        <SearchBox />
+        <InitialState />
+      </div>
+    );
+  }
 }
 
 export default App;

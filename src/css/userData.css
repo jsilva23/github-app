@@ -1,0 +1,37 @@
+.found-box {
+  border-bottom: 1px solid #aab9c4;
+  display: flex;
+  align-items: center;
+
+  padding: 10px 0;
+}
+
+.user-img {
+  background-color: #aab9c4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.user-img img {
+  background-color: #aab9c4;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-data {
+  width: 84%;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-data h1 {
+  font-size: 16px;
+  color: #152837;
+}
+
+.user-data span {
+  color: #aab9c4;
+}

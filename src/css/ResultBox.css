@@ -1,0 +1,25 @@
+.result-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.initial-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.initial-box i {
+  font-size: 6rem;
+  color: #aab9c4;
+  margin-bottom: 30px;
+}
+
+.initial-box p {
+  font-weight: 700;
+  font-size: x-large;
+  color: #152837;
+  text-align: center;
+}
