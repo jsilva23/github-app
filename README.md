@@ -16,6 +16,8 @@ Create a React application that retrieves and displays user repositories and org
 
 This is my version of the project sent to be evaluated by Mochi
 
+Note: In order to carry out this challenge, I had difficulty finding github api endpoints that would return data on contributions from users, organizations and people in an organization. In this case, I used false data.
+
 ### `How to run`
 
 Step 1:
