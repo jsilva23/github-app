@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Mochi Aptitude Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This test aims to measure the candidate's technical capabilities and find out if they are in accordance with the developer profile that Mochi is looking for.
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+Create a React application that retrieves and displays user repositories and organisations in Github.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    1.An input to enter the username. (INPUT)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    2.One area to display the repositories of the user and another area to display the organisations (OUTPUT)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `My submitted project`
 
-### `yarn build`
+This is my version of the project sent to be evaluated by Mochi
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `How to run`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+//Step 1:
+git clone [repository url]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+//Step 2:
+cd [local repository]
