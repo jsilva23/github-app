@@ -1,5 +1,5 @@
 import "../css/userData.css";
-import { User } from "../user";
+import { User } from "../contexts/user";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
@@ -16,8 +16,8 @@ function UserFound({ user }: UserCardProps) {
 
   useEffect(() => {
     axios
-      .get(`https://api.github.com/users/${user.login}/events/public`, {})
-      .then((response) => console.log(response.data))
+      .get(`https://api.github.com/${user.login}`, {})
+      .then((response) => setCurrentUser(response.data))
       .catch((err) => console.error(err));
   }, [user]);
 

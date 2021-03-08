@@ -1,0 +1,54 @@
+.results {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aab9c4;
+  padding: 10px 0;
+}
+
+.showMore {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  background: none;
+  border: none;
+  font-size: 15px;
+  color: gray;
+  cursor: pointer;
+}
+
+.hideShowMore {
+  display: none;
+}
+
+.appearUsers {
+  display: block;
+}
+
+.desappearUsers {
+  display: none;
+}
+
+.appearCompany {
+  display: block;
+}
+
+.desappearCompany {
+  display: none;
+}
+
+@media (min-width: 690px) {
+  .desappearUsers {
+    display: block;
+    width: 46%;
+  }
+  .appearUsers {
+    width: 46%;
+  }
+  .appearCompany {
+    width: 46%;
+  }
+  .desappearCompany {
+    display: block;
+    width: 46%;
+  }
+}

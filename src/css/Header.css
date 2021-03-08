@@ -1,5 +1,34 @@
 .header {
-  margin-bottom: 20px;
-  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.header h1 {
   color: #152837;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.search {
+  border: 1px solid gray;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.header input {
+  width: 610px;
+  height: 35px;
+  border: none;
+}
+.header button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.header i {
+  background-color: #b435b8;
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
 }

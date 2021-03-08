@@ -1,5 +1,5 @@
 import "../css/userData.css";
-import { User } from "../user";
+import { User } from "../contexts/user";
 
 interface CompanyCardProps {
   company: User;
@@ -13,8 +13,8 @@ function CompanyFound({ company }: CompanyCardProps) {
       </div>
       <div className="user-data">
         <div className="user-name">
-          <h1>trekksoft</h1>
-          <span>TrekkSoft</span>
+          <h1>{company.login}</h1>
+          <span>{company.name}</span>
         </div>
 
         <span>12</span>
